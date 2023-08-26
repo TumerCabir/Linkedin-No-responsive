@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F3F2F0;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding-top: 0px;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+.logo img{
+    width: 45px;
+    margin-left: 20px;
+}
+.lf{
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+}
+.search{
+    margin-left: 15px;
+}
+.search input[type=search]{
+    background-color: #EDF3F8;
+    border: 0;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/*LİNKS*/
+
+.links{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+.links a:visited{
+    border-bottom: 2px solid gray;
+}
+.links a.me{
+    text-align: center;
+    justify-content: center;
+    border-right: 2px solid gray;
+}
+.links a.me img{
+    height: 25px;
+    border-radius: 99px;
+    text-align: center;
+    padding: 0;
+}
+.more{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+/*Navbar-End*/
+
+/*profil page*/
+
+.page {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+.page .col1{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 0px 10px 0px 10px;
+    min-width: 12rem;
+    width: 13rem;
+    font-family: 'Noto Sans', sans-serif;
+    height: 24rem;
+    box-shadow: 0px 0px 1px black;
+}
+.page .col1 .grd1{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+.page .col1 .grd1 img{
+    border-radius: 99px;
+    width: 80px;
+    margin-bottom: 15px;
+}
+.page .col1 .grd1 .txt span{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.page .col1 .grd1 .txt p{
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.page .col1 .grd2 a{
+    color: black;
+    text-decoration: none;  
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0px;
+}
+.page .col1 .grd2 a:hover{
+    background-color: rgb(148, 148, 148);
+}
+.page .col1 .grd2{
+    border-bottom: 1px solid gray;
+    padding: 10px 0px 10px 0px;
+}
+.page .col1 .grd2 span{
+    color: rgb(55, 108, 255);
+    font-weight: 900;
+}
+
+.page .col1 .grd3 a{
+    display: flex;
+    justify-content: left;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 5px;
+    column-gap: 15px;
+}
+.page .col1 .grd3 a:hover{
+    background-color: rgb(148, 148, 148);
+}
+
+/*Profil page-end*/
+
+/*Posts*/
+
+
+
+.col2 .post{
+    background-color: #ffffff;
+    height: 4.5rem;
+    min-width: 22rem;
+    max-width: 22rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px black;
+}
+.col2 .post .grd1{
+    display: flex;
+}
+.col2 .post .grd1 img{
+    width: 50px;
+    border-radius: 99px;
+    margin-right: 7px;
+}
+.col2 .post .grd1 button{
+    width: 80%;
+    border-radius: 99px;
+    border: 1px solid gray;
+    text-align: left;
+    padding-left: 25px;
+    height: 50px;
+    background-color: #f0f0f0;
+    transition: 0.2s;
+} 
+.col2 .post .grd1 button:hover{
+    background-color: #d0d0d0;
+}
+.col2 .post .grd2{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.col2 .post .grd2 a{
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+
+/*Post-End*/
+
+
+.col3{
+    min-width: 16rem;
+    width: 20rem;
+    background-color: #ffff;
+    height: 27rem;
+    border-radius: 8px;
+    padding: 10px;
+    display: grid;
+    box-shadow: 0px 0px 1px black;
+}
+.col3 .top h1{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+.col3 .company{
+    display: flex;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+.col3 .comp img{
+    width: 48px;
+    background-color: gray;
+    border-radius: 99px;
+    margin-right: 15px;
+}
+.col3 .company .p{
+    font-weight: 900;
+}
+.col3 .comp .button{
+    display: flex;
+    justify-content: center;
+}
+.col3 .comp button{
+    background-color: #ffff;
+    border-radius: 99px;
+    border: 1px solid black;
+    width: 9rem;
+    aspect-ratio: 3.5/1;
+    transition: 0.4s;
+}
+.col3 .comp button:hover{
+    background-color: #d8d8d8;
+}
+
+/*Post2*/
+
+.post2{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    background-color: #ffffff;
+    min-width: 22rem;
+    max-width: 22rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px black;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 20px;
+}
+.post2 .top{
+    display: flex;
+    justify-content: space-between;
+}
+.post2 .top .pers{
+    display: flex;
+    align-items: center;
+}
+.post2 .top .pers img{
+    width: 45px;
+    border-radius: 99px;
+}
+.post2 .top .pers .txt{
+    font-size: 0.6rem;
+    margin-left: 8px;
+}
+.post2 .top a{
+    color: rgb(55, 108, 255);
+    text-decoration: none;
+}
+.post2 .attach .text{
+    font-size: 0.8rem;
+    padding: 10px 0px 10px 0px;
+}
+.post2 .attach .text p{
+    padding-bottom: 20px;
+}
+.post2 .attach .cont video{
+    width: 22rem;
+}
+.post2 .attach .cont img{
+    width: 22rem;
+}
+.post2 .interact{
+    display: flex;
+}
+.post2 .interact div{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.Bpost{
+    width: 97%;
+    background-color: #fafafa;
+    position: fixed;
+    top: 10%;
+    left: 1.5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+    margin: 0;
+    box-shadow: 1px 1px 999rem;
+}
+.Bpost img{
+    padding: 3rem;
+    width: 70%;
+}
